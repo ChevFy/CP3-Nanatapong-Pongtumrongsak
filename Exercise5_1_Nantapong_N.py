@@ -1,6 +1,6 @@
-a = 3.14
-b = 2.71
-c = 1.41
+a = int(input("a ="))
+b = int(input("b ="))
+c = int(input("c ="))
 
 x = a + b
 y = b - c
