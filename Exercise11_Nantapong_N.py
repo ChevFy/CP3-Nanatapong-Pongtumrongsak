@@ -1,8 +1,12 @@
+"""
+ิ  *   เคาะ 2
+ ***  เคาะ 1
+***** เคาะ 0
+"""
+
 number = int(input())
-text = ""
 
 for i in range(number) :
-    text = " "*(number-i)
-    print(text , "*" * (i*2+1))
-
-
+    blank = " " * (number-(i+1))
+    star = "*"*(i*2+1)
+    print(blank + star)
